@@ -15,6 +15,9 @@
 	"icon": "assets/oxo/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"client": [
+			"net.oxo.OxoClient"
+		],
 		"main": [
 			"net.oxo.Oxo"
 		],
